@@ -52,8 +52,13 @@ module.exports = {
                 },
             },
             backgroundImage: {
-                "hero-bg": "url('/hero-bg.png')",
+                "hero-red": "url('/hero-red.png')",
+                "hero-blue": "url('/hero-blue.png')",
+                "hero-yellow": "url('/hero-yellow.png')",
+                "hero-pink": "url('/hero-pink.png')",
                 "form-bg": "url('/form-bg.png')",
+                "stacked-waves-red": "url('/stacked-waves-red.png')",
+                "stacked-waves-yellow": "url('/stacked-waves-yellow.png')",
             },
             borderRadius: {
                 lg: "var(--radius)",

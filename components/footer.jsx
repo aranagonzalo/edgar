@@ -18,7 +18,8 @@ const Footer = () => {
             <div key={link.title} className="flex flex-col gap-6 text-base min-w-[170px]">
               <h3>{link.title}</h3>
               {link.links.map((item) => (
-                <Link 
+                <Link
+                  target={item.target} 
                   key={item.title}
                   href={item.url}
                   className="text-gray-500"
@@ -33,10 +34,10 @@ const Footer = () => {
       <div className="flex justify-between items-center flex-wrap mt-10 border-t border-gray-100 sm:px-16 px-6 py-10">
         <p>@2023 Mi Empresa Todos los derechos reservados</p>
         <div className="flex-1 flex sm:justify-end justify-center max-sm:mt-4 gap-10">
-              <Link href="/" className="text-gray-500">
+              <Link href="/privacidad" className="text-gray-500">
                 Política de privacidad
               </Link>
-              <Link href="/" className="text-gray-500">
+              <Link href="/terminos-y-condiciones" className="text-gray-500">
                 Términos y condiciones
               </Link>
         </div>

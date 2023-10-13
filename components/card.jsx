@@ -12,7 +12,7 @@ const Card = ({ src, title, desc }) => {
             />
         </div>
         <div className="h-1/2 p-6">
-            <h3 className="text-lg font-medium text-blue-600">{title}</h3>
+            <h3 className="text-lg font-bold text-blue-800">{title}</h3>
             <p className="pt-3 text-md font-light">{desc}</p>
         </div>
     </div>

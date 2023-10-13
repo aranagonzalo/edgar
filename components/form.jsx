@@ -39,8 +39,8 @@ const ContactForm = () => {
     }
 
   return (
-    <div className="flex xl:flex-row flex-col gap-5 relative z-0 max-w-[1440px] mx-auto bg-slate-200 overflow-hidden bg-layered-waves">
-        <Image src="/layered-waves2.svg" fill className="-z-10 object-cover object-bottom"/>
+    <div id="form" className="flex xl:flex-row flex-col gap-5 relative z-0 max-w-[1440px] mx-auto bg-slate-200 overflow-hidden bg-layered-waves">
+        <Image alt="background" src="/layered-waves2.svg" fill className="-z-10 object-cover object-bottom"/>
         <div className="absolute -rotate-[16deg] top-20 xl:-left-[42%] -left-1/4 bg-form-bg bg-repeat-round -z-10 w-[90%] h-[100%]" />
         <div className="flex flex-col flex-[1.3] padding-x items-center justify-center">
             <h1 className="2xl:text-[68px] xl:pt-0 pt-36 lg:text-left text-center sm:text-[40px] text-[36px] font-bold leading-snug text-indigo-900">

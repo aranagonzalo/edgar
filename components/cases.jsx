@@ -10,7 +10,7 @@ import {
 const Cases = () => {
     return (
         <section className="px-6 py-12 md:p-12 lg:p-24">
-            <h1 className="text-[#1f516d] text-4xl lg:text-5xl font-bold pb-12">
+            <h1 className="inline-block text-transparent bg-clip-text bg-gradient-to-b from-indigo-600 via-blue-600 to-blue-600 text-4xl lg:text-5xl font-bold pb-12">
                 En qué casos es conveniente alquilar?
             </h1>
             <div className="relative grid w-full grid-cols-1 grid-rows-6 justify-center gap-12 bg-white  md:grid-cols-3 md:grid-rows-2">

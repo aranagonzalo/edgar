@@ -16,8 +16,8 @@ const Navbar = () => {
                         href="https://api.whatsapp.com/send/?phone=51973145840"
                         className="flex items-center"
                     >
-                        <Phone size={24} strokeWidth={2} />
-                        <span className="ml-2 font-semibold text-[#1f516d]">
+                        <Phone size={24} strokeWidth={2} color="#4f46e5" />
+                        <span className="ml-2 font-semibold inline-block text-transparent bg-clip-text bg-gradient-to-b from-indigo-600 via-blue-600 to-blue-600">
                             973 145 840
                         </span>
                     </Link>
@@ -29,8 +29,8 @@ const Navbar = () => {
                             href="mailto:ventas@helpcorp.pe"
                             className="ml-2 flex items-center"
                         >
-                            <Mail size={24} strokeWidth={2} />
-                            <span className="ml-2 font-semibold text-[#1f516d]">
+                            <Mail size={24} strokeWidth={2} color="#4f46e5" />
+                            <span className="ml-2 font-semibold inline-block text-transparent bg-clip-text bg-gradient-to-b from-indigo-600 via-blue-600 to-blue-600">
                                 ventas@helpcorp.pe
                             </span>
                         </Link>
